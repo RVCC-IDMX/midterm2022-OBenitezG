@@ -1,0 +1,16 @@
+                /* Background Section */
+
+html {
+    height: 95%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, #b4d4ee, 50%, white);
+}
+
+header {
+    text-align: center;
+}
