@@ -8,62 +8,78 @@
     box-sizing: border-box;
 }
 
-
 html {
     padding: 0;
     height: 100%;
     background-repeat: no-repeat;
-    background-image: linear-gradient(to bottom, #b4d4ee, white);
+    background-image: linear-gradient( #b4d4ee, white);
+    scroll-behavior: smooth;
 }
+
 body {
     margin: 0;
+    overflow: hidden;
 }
+
 
                                                     /* Navigation Bar */
 
-nav {
-    background: #77abd5;
+header {
     height: 90px;
     width: 100%;
     color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
 }
 
-.leftnav {
-    padding: 0 60px;
-}
-
-.leftnav img {
+.header img {
+    margin-left: 10px;
     line-height: 80px;
     width: 70px;
     float: left;
 }
 
 #compname {
+    padding-left: 5px;
     font-size: 70px;
     line-height: 80px;
-    font-weight: bold;
+    color: black;
 }
 
-.rightnav ul {
+#contact {
     float: right;
-    margin: 0;
-    padding: 0;
-    margin-right: 20px;
-}
-
-.rightnav ul li {
-    display: inline-block;
     line-height: 80px;
-    margin: 0 30px;
+    padding-right: 40px;
+    color: black;
 }
 
-.rightnav ul li a {
+                                                    /* Home Page */
+
+.bluespiral {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.homepage-container {
+    position: relative;
+    text-align: center;
+}
+
+#homepage-title {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
     color: white;
-    font-size: 15px;
-    text-transform: uppercase;
 }
 
+#homepage-subtitle {
+    position: absolute;
+    padding-top: 20px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
 
