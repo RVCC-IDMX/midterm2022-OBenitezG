@@ -1,26 +1,10 @@
                                                     /* Base Foundation */
 
-* {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
-
 html {
     padding: 0;
-    height: 100%;
     background-repeat: no-repeat;
     background-image: linear-gradient( #b4d4ee, white);
-    scroll-behavior: smooth;
 }
-
-body {
-    margin: 0;
-    overflow: hidden;
-}
-
 
                                                     /* Navigation Bar */
 
@@ -53,21 +37,21 @@ header {
 
                                                     /* Home Page */
 
-.bluespiral {
+#bluespiral {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
 }
 
-.homepage-container {
+#homepage-container {
     position: relative;
     text-align: center;
 }
 
 #homepage-title {
     position: absolute;
-    top: 25%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 4rem;
@@ -76,10 +60,41 @@ header {
 
 #homepage-subtitle {
     position: absolute;
-    padding-top: 20px;
-    top: 30%;
+    padding-top: 10px;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
 }
 
+                                                    /* About Page */
+
+#about-me {
+    padding-top: 4rem;
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    padding-bottom: 3rem;
+}
+
+#computer {
+    float: right;
+    margin: 0px 0px 15px 15px;
+}
+
+#about-paragraph {
+    font-size: 2rem;
+    max-width: 80rem;
+    width: 25%;
+    float: left;
+    height: 280px;
+}
+
+#website-list {
+    float:left;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 25%;
+    margin: 0 auto;
+}
