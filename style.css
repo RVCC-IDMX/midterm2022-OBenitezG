@@ -44,14 +44,14 @@ header {
     width: 90%;
 }
 
-#homepage-container {
+.homepage-container {
     position: relative;
     text-align: center;
 }
 
 #homepage-title {
     position: absolute;
-    top: 20%;
+    top: 200px;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 4rem;
@@ -61,7 +61,7 @@ header {
 #homepage-subtitle {
     position: absolute;
     padding-top: 10px;
-    top: 25%;
+    top: 250px;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -70,31 +70,52 @@ header {
                                                     /* About Page */
 
 #about-me {
-    padding-top: 4rem;
+    padding-top: 1rem;
     text-align: center;
     font-size: 1.5rem;
     text-decoration: underline;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
-#computer {
-    float: right;
-    margin: 0px 0px 15px 15px;
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    border: 1px solid black;
+    width: 100%; 
 }
 
 #about-paragraph {
-    font-size: 2rem;
-    max-width: 80rem;
-    width: 25%;
-    float: left;
-    height: 280px;
+    max-width: 65%;
+    padding-left: 30px;
+    font-size: 20px;
 }
 
 #website-list {
-    float:left;
-    padding-left: 2rem;
-    font-size: 1.5rem;
     text-align: center;
-    width: 25%;
-    margin: 0 auto;
+    font-size: 20px;
 }
+
+#website-list ul li {
+    list-style: none;
+    margin-bottom: 1em;
+}
+
+                                                    /* Reviews Page */
+
+#review-1 p {
+}
+
+
+
+                                                    /* Footer Section */
+
+footer {
+    bottom: 0;
+    width: 100%;
+    text-align:center;
+    color: #F5F8FF;
+    border: 2px solid #9E9685;
+    background-color: #9E9685;
+}
+                                                    
